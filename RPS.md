@@ -4,7 +4,7 @@ This challenge provides us with a rock, paper, scissors game program to get our 
 
 ## Solution
 
-It look like we need to beat the computer 5 times to get the flag
+It look like we need to beat the computer 5 times to get the flag.
 
 If we check the source code we find:
 
@@ -25,9 +25,9 @@ if (strstr(player_turn, loses[computer_turn])) {
 
 The important thing is that ```(strstr(player_turn, loses[computer_turn]))```
 
-This is basically ging to check if the given computers guess is found within the given players guess
+This is basically going to check if the given computers guess is found within the given players guess.
 
-So we can exploit this by using a guess that contains all possible computer guesses such as ```rockpaperscissors```
+So we can exploit this by using a guess that contains all possible computer guesses such as ```rockpaperscissors```.
 
 If we enter that for 5 rounds of the game we get out flag!
 

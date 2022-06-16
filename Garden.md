@@ -1,8 +1,8 @@
- # Glory of the Garden
+# Glory of the Garden
 
 The challenge provides a jpeg image and states that "This garden contains more than it seems.
 
- ## Solution
+## Solution
 
 In terminal I ran:
 

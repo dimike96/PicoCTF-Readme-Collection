@@ -1,10 +1,10 @@
 # PW Crack 2
 
-We are provided an encyrpted flag file and a password checking python script
+We are provided an encrypted flag file and a password checking python script
 
 ## Solution
 
-Again sensitive information is in the script, this time encoded using the unicode representation of each character, converting each to their corresponding character and concatonating them to get the password.
+Again sensitive information is in the script, this time encoded using the unicode representation of each character, converting each to their corresponding character and concatenating them to get the password.
 
 ```
 if( user_pw == chr(0x62) + chr(0x37) + chr(0x30) + chr(0x37) ):

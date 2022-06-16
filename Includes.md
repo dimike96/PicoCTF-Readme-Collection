@@ -9,6 +9,7 @@ Simple digging around using our browsers developer tools can often prove fruitfu
 Under our "view-source" of the provided page we see two other files referenced: ```style.css``` and ```script.js```
 
 Contents of ```style.css```:
+
 ```
 body {
   background-color: lightblue;
@@ -18,6 +19,7 @@ body {
 ```
 
 Contents of ```script.js```:
+
 ```
 function greetings()
 {
@@ -28,6 +30,7 @@ function greetings()
 ```
 
 ## Flag:
+
 ```
 picoCTF{1nclu51v17y_1of2_f7w_2of2_6edef411}
 ```

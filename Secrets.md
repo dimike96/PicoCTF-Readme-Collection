@@ -7,6 +7,7 @@ In this challenge we're given a website(```http://saturn.picoctf.net:50167/```),
 Utilizing our browsers developer tools we can view the sources of the pages we can see, as their front facing content is bland and uninteresting.
 
 What stuck out to me from the homepage:
+
 ```
 <link href="secret/assets/index.css" rel="stylesheet" />
 ```
@@ -16,6 +17,7 @@ Reference to a "secret" folder... Let's see what happens if we try to go directl
 A meme. And a hint we are on the right track! 
 
 Viewing the source here we see:
+
 ```
 <link rel="stylesheet" href="hidden/file.css" />
 ```
@@ -31,6 +33,7 @@ This time we land on a login page. But that's probably a distraction, again to t
 Ahh a "superhidden" folder!
 
 The page we find there:
+
 ```
 <!DOCTYPE html>
 <html>

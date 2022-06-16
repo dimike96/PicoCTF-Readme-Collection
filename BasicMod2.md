@@ -1,6 +1,6 @@
 # Basic Mod 2
 
-This is another challenge using modular! We're given an encypted message and the steps to solve it. 
+This is another challenge using modular! We're given an encrypted message and the steps to solve it.
 
 We're told to take each number mod 41 and find the modular inverse for the result. Then map to the following character set: 1-26 are the alphabet, 27-36 are the decimal digits, and 37 is an underscore.
 

@@ -1,6 +1,6 @@
 # Bloat.py
 
-In this challenge we're given an encoved flag and a python script to decode it
+In this challenge we're given an encoded flag and a python script to decode it
 
 ## Solution
 

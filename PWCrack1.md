@@ -1,16 +1,17 @@
-# The Numbers
-The numbers... what do they mean?
+# PW Crack 1
 
-The challenge provided a picture that contained a set of numbers.
+We are provided a python script that acts as a password checker, and an encrypted flag. Can we find the password to get the flag?
 
 ## Solution
 
-The numbers simply corredspond to their index of the alphabet.
-
-I transcribed the numbers from the image into a string, then list, to feed a python program
-
-num_cruncher.py takes that string and converts it to the flag.
-
+Sometimes sensitive data is hardcoded into programs. In this one there was a line:
 ```
-picoCTF{thenumbersmason}
+if( user_pw == "f014"):
+```
+
+Followed by decrypting and printing the flag :)
+
+So password = f014 and flag was:
+```
+picoCTF{545h_r1ng1ng_6ed6f065}
 ```

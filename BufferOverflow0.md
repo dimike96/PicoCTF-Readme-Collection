@@ -1,6 +1,6 @@
 # Buffer Overflow 0
 
-In this challenge we're provided a program and it's source code and meant to exploit it to get the flag. Given the challenge title we can expect how we might do that. We
+In this challenge we're provided a program and it's source code and meant to exploit it to get the flag. Given the challenge title we can expect how we might do that.
 
 ## Solution
 

@@ -1,6 +1,6 @@
 # Enhance
 
-This challenege gives us a svg file and we need to get our flag from it
+This challenge gives us a svg file and we need to get our flag from it
 
 ## Solution
 

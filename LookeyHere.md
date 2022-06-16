@@ -1,6 +1,6 @@
 # Lookey Here
 
-This challenge gives us a very long text file for us to get the flag from
+This challenge gives us a very long text file for us to get the flag from.
 
 ## Solution
 
